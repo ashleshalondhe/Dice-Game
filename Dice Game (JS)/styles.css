@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    color: #4a4a4a;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #79a1e2;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.input-section, .game-section {
+    margin-top: 15px;
+}
+
+input {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #cfd9df;
+    text-align: center;
+    font-size: 1rem;
+    background: #f3f7fa;
+    color: #6d8299;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #79a1e2;
+}
+
+.btn {
+    background: #79a1e2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #a3c1ee;
+}
+
+.hidden {
+    display: none;
+}
+
+.dice {
+    display: inline-block;
+    margin: 20px;
+}
+
+.dice p {
+    font-size: 1.2rem;
+    color: #79a1e2;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+#result {
+    font-size: 1.5rem;
+    color: #6d8299;
+    margin-top: 20px;
+}

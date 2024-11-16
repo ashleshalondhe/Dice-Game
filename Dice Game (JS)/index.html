@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
+
+        <div class="input-section">
+            <input type="text" id="player1-name" placeholder="Enter Player 1 Name">
+            <input type="text" id="player2-name" placeholder="Enter Player 2 Name">
+            <button class="btn" onclick="startGame()">Start Game</button>
+        </div>
+
+        <div class="game-section hidden">
+            <div class="dice">
+                <p class="player1-name-display">Player1</p>
+                <img src="image/d1.svg" alt="dice 1" class="img1">
+            </div>
+            <div class="dice">
+                <p class="player2-name-display">Player2</p>
+                <img src="image/d1.svg" alt="dice 2" class="img2">
+            </div>
+
+            <div class="bottom">
+                <button type="button" class="btn" onclick="rollTheDice()">Roll The Dice</button>
+                <h2 id="result">Roll the dice to start!</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
